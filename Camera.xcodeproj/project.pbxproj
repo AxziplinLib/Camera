@@ -47,6 +47,19 @@
 		DCDAC7201F7A4A83005DC24E /* CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAC7241F7A4A83005DC24E /* CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUITests.swift; sourceTree = "<group>"; };
 		DCDAC7261F7A4A83005DC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDAC7341F7A5093005DC24E /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		DCDAC7351F7A5093005DC24E /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		DCDAC7371F7A5093005DC24E /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DCDAC7381F7A5093005DC24E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		DCDAC7391F7A5093005DC24E /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		DCDAC73A1F7A5093005DC24E /* ToolBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBars.swift; sourceTree = "<group>"; };
+		DCDAC73B1F7A5093005DC24E /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		DCDAC73C1F7A5093005DC24E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		DCDAC73D1F7A5093005DC24E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DCDAC73E1F7A5093005DC24E /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		DCDAC73F1F7A5093005DC24E /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DCDAC7401F7A5093005DC24E /* RichImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImages.swift; sourceTree = "<group>"; };
+		DCDAC7411F7A5093005DC24E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +90,7 @@
 		DCDAC6F81F7A4A83005DC24E = {
 			isa = PBXGroup;
 			children = (
+				DCDAC7321F7A5093005DC24E /* Source */,
 				DCDAC7031F7A4A83005DC24E /* Camera */,
 				DCDAC7181F7A4A83005DC24E /* CameraTests */,
 				DCDAC7231F7A4A83005DC24E /* CameraUITests */,
@@ -123,6 +137,42 @@
 				DCDAC7261F7A4A83005DC24E /* Info.plist */,
 			);
 			path = CameraUITests;
+			sourceTree = "<group>";
+		};
+		DCDAC7321F7A5093005DC24E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAC7331F7A5093005DC24E /* Assets */,
+				DCDAC7361F7A5093005DC24E /* Camera */,
+				DCDAC73C1F7A5093005DC24E /* Errors.swift */,
+				DCDAC73D1F7A5093005DC24E /* ImagePicker.swift */,
+				DCDAC73E1F7A5093005DC24E /* Resource.bundle */,
+				DCDAC73F1F7A5093005DC24E /* Resource.swift */,
+				DCDAC7401F7A5093005DC24E /* RichImages.swift */,
+				DCDAC7411F7A5093005DC24E /* Utility.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DCDAC7331F7A5093005DC24E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAC7341F7A5093005DC24E /* Assets.swift */,
+				DCDAC7351F7A5093005DC24E /* Cells.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCDAC7361F7A5093005DC24E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAC7371F7A5093005DC24E /* Camera.swift */,
+				DCDAC7381F7A5093005DC24E /* Configuration.swift */,
+				DCDAC7391F7A5093005DC24E /* Previews.swift */,
+				DCDAC73A1F7A5093005DC24E /* ToolBars.swift */,
+				DCDAC73B1F7A5093005DC24E /* Transition.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
