@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "f4882da1e7e52a706163e13b91b1aac86f4d959a40e9727ad89af296379c485d",
+      "name" : "TabNavigations"
+    }
+  ],
+  "commitish" : "0.0.5",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}

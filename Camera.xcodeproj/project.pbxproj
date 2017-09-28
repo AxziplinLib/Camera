@@ -14,6 +14,8 @@
 		DCDAC70F1F7A4A83005DC24E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDAC70D1F7A4A83005DC24E /* LaunchScreen.storyboard */; };
 		DCDAC71A1F7A4A83005DC24E /* CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAC7191F7A4A83005DC24E /* CameraTests.swift */; };
 		DCDAC7251F7A4A83005DC24E /* CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAC7241F7A4A83005DC24E /* CameraUITests.swift */; };
+		DCDF31E31F7C86BC006DD823 /* TabNavigations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCDF31E21F7C86BC006DD823 /* TabNavigations.framework */; };
+		DCDF31E41F7C86BC006DD823 /* TabNavigations.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCDF31E21F7C86BC006DD823 /* TabNavigations.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DCB5E18C1F7C86630064C37D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DCDF31E41F7C86BC006DD823 /* TabNavigations.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DCB5E1791F7C86390064C37D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		DCB5E17A1F7C86390064C37D /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		DCB5E17C1F7C86390064C37D /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		DCB5E17D1F7C86390064C37D /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		DCB5E17E1F7C86390064C37D /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		DCB5E17F1F7C86390064C37D /* ToolBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBars.swift; sourceTree = "<group>"; };
+		DCB5E1801F7C86390064C37D /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		DCB5E1811F7C86390064C37D /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		DCB5E1821F7C86390064C37D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DCB5E1831F7C86390064C37D /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		DCB5E1841F7C86390064C37D /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		DCB5E1851F7C86390064C37D /* RichImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImages.swift; sourceTree = "<group>"; };
+		DCB5E1861F7C86390064C37D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		DCDAC7011F7A4A83005DC24E /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAC7041F7A4A83005DC24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCDAC7061F7A4A83005DC24E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,19 +76,7 @@
 		DCDAC7201F7A4A83005DC24E /* CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAC7241F7A4A83005DC24E /* CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraUITests.swift; sourceTree = "<group>"; };
 		DCDAC7261F7A4A83005DC24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCDAC7341F7A5093005DC24E /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		DCDAC7351F7A5093005DC24E /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
-		DCDAC7371F7A5093005DC24E /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
-		DCDAC7381F7A5093005DC24E /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		DCDAC7391F7A5093005DC24E /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
-		DCDAC73A1F7A5093005DC24E /* ToolBars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBars.swift; sourceTree = "<group>"; };
-		DCDAC73B1F7A5093005DC24E /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
-		DCDAC73C1F7A5093005DC24E /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		DCDAC73D1F7A5093005DC24E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		DCDAC73E1F7A5093005DC24E /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
-		DCDAC73F1F7A5093005DC24E /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		DCDAC7401F7A5093005DC24E /* RichImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImages.swift; sourceTree = "<group>"; };
-		DCDAC7411F7A5093005DC24E /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		DCDF31E21F7C86BC006DD823 /* TabNavigations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TabNavigations.framework; path = Carthage/Build/iOS/TabNavigations.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDF31E31F7C86BC006DD823 /* TabNavigations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +105,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCB5E1771F7C86390064C37D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5E1781F7C86390064C37D /* Assets */,
+				DCB5E17B1F7C86390064C37D /* Camera */,
+				DCB5E1811F7C86390064C37D /* Errors.swift */,
+				DCB5E1821F7C86390064C37D /* ImagePicker.swift */,
+				DCB5E1831F7C86390064C37D /* Resource.bundle */,
+				DCB5E1841F7C86390064C37D /* Resource.swift */,
+				DCB5E1851F7C86390064C37D /* RichImages.swift */,
+				DCB5E1861F7C86390064C37D /* Utility.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DCB5E1781F7C86390064C37D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5E1791F7C86390064C37D /* Assets.swift */,
+				DCB5E17A1F7C86390064C37D /* Cells.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCB5E17B1F7C86390064C37D /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5E17C1F7C86390064C37D /* Camera.swift */,
+				DCB5E17D1F7C86390064C37D /* Configuration.swift */,
+				DCB5E17E1F7C86390064C37D /* Previews.swift */,
+				DCB5E17F1F7C86390064C37D /* ToolBars.swift */,
+				DCB5E1801F7C86390064C37D /* Transition.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		DCDAC6F81F7A4A83005DC24E = {
 			isa = PBXGroup;
 			children = (
-				DCDAC7321F7A5093005DC24E /* Source */,
+				DCDF31E21F7C86BC006DD823 /* TabNavigations.framework */,
+				DCB5E1771F7C86390064C37D /* Sources */,
 				DCDAC7031F7A4A83005DC24E /* Camera */,
 				DCDAC7181F7A4A83005DC24E /* CameraTests */,
 				DCDAC7231F7A4A83005DC24E /* CameraUITests */,
@@ -139,42 +194,6 @@
 			path = CameraUITests;
 			sourceTree = "<group>";
 		};
-		DCDAC7321F7A5093005DC24E /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DCDAC7331F7A5093005DC24E /* Assets */,
-				DCDAC7361F7A5093005DC24E /* Camera */,
-				DCDAC73C1F7A5093005DC24E /* Errors.swift */,
-				DCDAC73D1F7A5093005DC24E /* ImagePicker.swift */,
-				DCDAC73E1F7A5093005DC24E /* Resource.bundle */,
-				DCDAC73F1F7A5093005DC24E /* Resource.swift */,
-				DCDAC7401F7A5093005DC24E /* RichImages.swift */,
-				DCDAC7411F7A5093005DC24E /* Utility.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		DCDAC7331F7A5093005DC24E /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				DCDAC7341F7A5093005DC24E /* Assets.swift */,
-				DCDAC7351F7A5093005DC24E /* Cells.swift */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		DCDAC7361F7A5093005DC24E /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				DCDAC7371F7A5093005DC24E /* Camera.swift */,
-				DCDAC7381F7A5093005DC24E /* Configuration.swift */,
-				DCDAC7391F7A5093005DC24E /* Previews.swift */,
-				DCDAC73A1F7A5093005DC24E /* ToolBars.swift */,
-				DCDAC73B1F7A5093005DC24E /* Transition.swift */,
-			);
-			path = Camera;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,6 +204,7 @@
 				DCDAC6FD1F7A4A83005DC24E /* Sources */,
 				DCDAC6FE1F7A4A83005DC24E /* Frameworks */,
 				DCDAC6FF1F7A4A83005DC24E /* Resources */,
+				DCB5E18C1F7C86630064C37D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -478,6 +498,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKA48YVS5T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devedbox.Camera;
@@ -493,6 +517,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TKA48YVS5T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = devedbox.Camera;

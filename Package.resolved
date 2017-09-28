@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "TabNavigations",
+        "repositoryURL": "https://github.com/AxziplinLib/TabNavigations.git",
+        "state": {
+          "branch": null,
+          "revision": "75bd4c6c5347c085f9f47a1fc2c56626ee5c9d0e",
+          "version": "0.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
