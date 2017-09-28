@@ -1,4 +1,0 @@
-framework module TabNavigations {
-    header "TabNavigations-Swift.h"
-    requires objc
-}
