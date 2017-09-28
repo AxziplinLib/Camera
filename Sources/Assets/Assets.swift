@@ -187,7 +187,7 @@ extension AssetsViewController {
 // MARK: Overrides.
 
 extension AssetsViewController {
-    override public var layoutInsets: UIEdgeInsets { return .zero }
+    override open var layoutInsets: UIEdgeInsets { return .zero }
 }
 
 extension AssetsViewController {
