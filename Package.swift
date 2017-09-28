@@ -9,7 +9,12 @@
 import PackageDescription
 
 let package = Package(name: "Camera", dependencies : [
-    .Package(
-    url: "https://github.com/AxziplinLib/TabNavigations.git",
-    majorVersion: 0, minor: 0)
-    ], exclude: [])
+       .Package(
+        url: "https://github.com/AxziplinLib/TabNavigations.git",
+        majorVersion: 0, minor: 0)
+    ], exclude: [],
+       .Package(
+        url: "https://github.com/AxziplinLib/RichImages.git",
+        majorVersion: 0, minor: 0)
+    ], exclude: []
+)
