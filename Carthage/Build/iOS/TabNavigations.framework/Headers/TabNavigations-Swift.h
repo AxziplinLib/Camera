@@ -288,7 +288,7 @@ SWIFT_CLASS("_TtC14TabNavigations23TabNavigationController")
 @property (nonatomic, readonly) BOOL shouldAutomaticallyForwardAppearanceMethods;
 @property (nonatomic, readonly) BOOL isViewAppeared;
 @property (nonatomic) BOOL isTabNavigationItemsUpdatingDisabledInRootViewControllers;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)loadView;
 - (void)viewDidLoad;
