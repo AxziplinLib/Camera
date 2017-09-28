@@ -8,6 +8,7 @@
 
 import UIKit
 import GLKit
+import RichImages
 import AVFoundation
 
 /// A protocol defines the handlers of the call backs of the camera view controller.

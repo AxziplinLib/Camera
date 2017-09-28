@@ -22,7 +22,6 @@
 		DC25BB6C1F7C87A600C790DF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1811F7C86390064C37D /* Errors.swift */; };
 		DC25BB6D1F7C87A600C790DF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1821F7C86390064C37D /* ImagePicker.swift */; };
 		DC25BB6E1F7C87A600C790DF /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1841F7C86390064C37D /* Resource.swift */; };
-		DC25BB6F1F7C87A600C790DF /* RichImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1851F7C86390064C37D /* RichImages.swift */; };
 		DC25BB701F7C87A600C790DF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1861F7C86390064C37D /* Utility.swift */; };
 		DC25BB711F7C87B500C790DF /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCB5E1831F7C86390064C37D /* Resource.bundle */; };
 		DC25BB741F7C87EC00C790DF /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1791F7C86390064C37D /* Assets.swift */; };
@@ -35,11 +34,14 @@
 		DC25BB7B1F7C87EC00C790DF /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1811F7C86390064C37D /* Errors.swift */; };
 		DC25BB7C1F7C87EC00C790DF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1821F7C86390064C37D /* ImagePicker.swift */; };
 		DC25BB7D1F7C87EC00C790DF /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1841F7C86390064C37D /* Resource.swift */; };
-		DC25BB7E1F7C87EC00C790DF /* RichImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1851F7C86390064C37D /* RichImages.swift */; };
 		DC25BB7F1F7C87EC00C790DF /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5E1861F7C86390064C37D /* Utility.swift */; };
 		DC25BB801F7C87F400C790DF /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DCB5E1831F7C86390064C37D /* Resource.bundle */; };
 		DC25BB891F7CA0E000C790DF /* TabNavigations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BB881F7CA0DF00C790DF /* TabNavigations.framework */; };
 		DC25BB8A1F7CA0E000C790DF /* TabNavigations.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BB881F7CA0DF00C790DF /* TabNavigations.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC25BBBB1F7CA4DB00C790DF /* RichImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BBBA1F7CA4DB00C790DF /* RichImages.framework */; };
+		DC25BBBC1F7CA4DB00C790DF /* RichImages.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BBBA1F7CA4DB00C790DF /* RichImages.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DC25BBBD1F7CC70E00C790DF /* RichImages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BBBA1F7CA4DB00C790DF /* RichImages.framework */; };
+		DC25BBBE1F7CC70E00C790DF /* TabNavigations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC25BB881F7CA0DF00C790DF /* TabNavigations.framework */; };
 		DCDAC7051F7A4A83005DC24E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAC7041F7A4A83005DC24E /* AppDelegate.swift */; };
 		DCDAC7071F7A4A83005DC24E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDAC7061F7A4A83005DC24E /* ViewController.swift */; };
 		DCDAC70A1F7A4A83005DC24E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDAC7081F7A4A83005DC24E /* Main.storyboard */; };
@@ -95,6 +97,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				DC25BB8A1F7CA0E000C790DF /* TabNavigations.framework in Embed Frameworks */,
+				DC25BBBC1F7CA4DB00C790DF /* RichImages.framework in Embed Frameworks */,
 				DC25BB5E1F7C878E00C790DF /* Camera.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -111,6 +114,7 @@
 		DC25BB591F7C878E00C790DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC25BB821F7C8D6100C790DF /* TabNavigations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TabNavigations.framework; path = Carthage/Build/iOS/TabNavigations.framework; sourceTree = "<group>"; };
 		DC25BB881F7CA0DF00C790DF /* TabNavigations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TabNavigations.framework; path = Carthage/Build/iOS/TabNavigations.framework; sourceTree = "<group>"; };
+		DC25BBBA1F7CA4DB00C790DF /* RichImages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RichImages.framework; path = Carthage/Build/iOS/RichImages.framework; sourceTree = "<group>"; };
 		DCB5E1791F7C86390064C37D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		DCB5E17A1F7C86390064C37D /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		DCB5E17C1F7C86390064C37D /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
@@ -122,7 +126,6 @@
 		DCB5E1821F7C86390064C37D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		DCB5E1831F7C86390064C37D /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
 		DCB5E1841F7C86390064C37D /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		DCB5E1851F7C86390064C37D /* RichImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichImages.swift; sourceTree = "<group>"; };
 		DCB5E1861F7C86390064C37D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		DCDAC7011F7A4A83005DC24E /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDAC7041F7A4A83005DC24E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC25BBBD1F7CC70E00C790DF /* RichImages.framework in Frameworks */,
+				DC25BBBE1F7CC70E00C790DF /* TabNavigations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC25BB891F7CA0E000C790DF /* TabNavigations.framework in Frameworks */,
+				DC25BBBB1F7CA4DB00C790DF /* RichImages.framework in Frameworks */,
 				DC25BB5D1F7C878E00C790DF /* Camera.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +222,6 @@
 				DCB5E1821F7C86390064C37D /* ImagePicker.swift */,
 				DCB5E1831F7C86390064C37D /* Resource.bundle */,
 				DCB5E1841F7C86390064C37D /* Resource.swift */,
-				DCB5E1851F7C86390064C37D /* RichImages.swift */,
 				DCB5E1861F7C86390064C37D /* Utility.swift */,
 			);
 			path = Sources;
@@ -246,6 +251,7 @@
 		DCDAC6F81F7A4A83005DC24E = {
 			isa = PBXGroup;
 			children = (
+				DC25BBBA1F7CA4DB00C790DF /* RichImages.framework */,
 				DC25BB881F7CA0DF00C790DF /* TabNavigations.framework */,
 				DCB5E1771F7C86390064C37D /* Sources */,
 				DCDAC7031F7A4A83005DC24E /* Camera */,
@@ -522,7 +528,6 @@
 				DC25BB7B1F7C87EC00C790DF /* Errors.swift in Sources */,
 				DC25BB7C1F7C87EC00C790DF /* ImagePicker.swift in Sources */,
 				DC25BB7D1F7C87EC00C790DF /* Resource.swift in Sources */,
-				DC25BB7E1F7C87EC00C790DF /* RichImages.swift in Sources */,
 				DC25BB7F1F7C87EC00C790DF /* Utility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,7 +546,6 @@
 				DC25BB6C1F7C87A600C790DF /* Errors.swift in Sources */,
 				DC25BB6D1F7C87A600C790DF /* ImagePicker.swift in Sources */,
 				DC25BB6E1F7C87A600C790DF /* Resource.swift in Sources */,
-				DC25BB6F1F7C87A600C790DF /* RichImages.swift in Sources */,
 				DC25BB701F7C87A600C790DF /* Utility.swift in Sources */,
 				DC25BB581F7C878E00C790DF /* CameraFrameworkTests.swift in Sources */,
 			);
